@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+div{
+    margin-left: 1%;
+}
+
+#base{
+    margin-left: 1%;
+}
+
+#expoente{
+    margin-left: 1%;
+}
+
+button{
+    margin-left: 1%; 
+}
+label{
+    margin-left: 1%;
+}
