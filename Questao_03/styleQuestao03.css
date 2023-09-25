@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+button{
+    margin-left: 0.5%;
+}
+b{
+    margin-left: 1%;
+}
+
+input{
+    margin-left: 1%;
+}
+
+strong{
+    margin-left: 1%;
+}
+

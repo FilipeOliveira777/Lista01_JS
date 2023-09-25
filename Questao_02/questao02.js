@@ -1,7 +1,4 @@
-function calcularpotencia(base,expoente){
-    return  Math.pow(base,expoente);
-}
-
+const calcularpotencia=(base,expoente) => Math.pow(base,expoente);
 const btn= document.querySelector('button');
 const base= document.querySelector('#base');
 const expoente=document.querySelector('#expoente');
