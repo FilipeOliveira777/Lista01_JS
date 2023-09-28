@@ -6,9 +6,9 @@ const base= document.querySelector('#base');
 const expoente=document.querySelector('#expoente');
 //Criando o evento de click no botão.
 btn.addEventListener('click',()=>{
-    const numb=Number(base.value);
-    const nume=Number(expoente.value);
-    const potencia=calcularpotencia(numb,nume);
+    const numb=parseFloat(base.value);
+    const nume=parseFloat(expoente.value);
+    const  potencia=calcularpotencia(numb,nume);
     console.log(potencia);
     const div= document.querySelector('div');
 //Exibindo o resultado da função para o usuario.    
